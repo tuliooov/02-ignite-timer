@@ -120,7 +120,7 @@ Error generating stack: `+o.message+`
       }
     }
   }
-`,ck="/assets/logo-ignite.ce0eb831.svg";function dk(){const{toogleTheme:e,theme:t}=j.exports.useContext(o0);return ee(uk,{children:[ee("div",{children:[p("img",{src:ck,alt:""}),p("button",{onClick:e,children:t==="default"?p(ak,{size:24}):p(ek,{size:24})})]}),ee("nav",{children:[p(mf,{to:"/",title:"Timer",children:p(lk,{size:24})}),p(mf,{to:"/history",title:"Hist\xF3rico",children:p(ik,{size:24})})]})]})}const fk=ct.div`
+`,ck='/02-ignite-timer"/assets/logo-ignite.ce0eb831.svg';function dk(){const{toogleTheme:e,theme:t}=j.exports.useContext(o0);return ee(uk,{children:[ee("div",{children:[p("img",{src:ck,alt:""}),p("button",{onClick:e,children:t==="default"?p(ak,{size:24}):p(ek,{size:24})})]}),ee("nav",{children:[p(mf,{to:"/",title:"Timer",children:p(lk,{size:24})}),p(mf,{to:"/history",title:"Hist\xF3rico",children:p(ik,{size:24})})]})]})}const fk=ct.div`
   max-width: 74rem;
   height: calc(100vh - 10rem);
   margin: 5rem auto;
