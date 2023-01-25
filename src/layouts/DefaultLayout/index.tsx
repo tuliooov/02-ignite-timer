@@ -4,6 +4,7 @@ import { Header } from '../../components/Header'
 import { LayoutContainer } from './styles'
 
 export function DefaultLayout() {
+  console.log('LayoutDefault')
   return (
     <LayoutContainer>
       <Header />
