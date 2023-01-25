@@ -1,7 +1,7 @@
 {
   "name": "02-ignite-timer",
   "private": true,
-  "homepage": "https://tuliooov.github.io/02-ignite-timer",
+  "homepage": "https://github.com/tuliooov",
   "version": "0.0.0",
   "scripts": {
     "predeploy": "npm run build",
