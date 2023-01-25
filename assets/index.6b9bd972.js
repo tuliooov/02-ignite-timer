@@ -120,7 +120,7 @@ Error generating stack: `+o.message+`
       }
     }
   }
-`,ck="/02-ignite-timer/assets/logo-ignite.ce0eb831.svg";function dk(){const{toogleTheme:e,theme:t}=j.exports.useContext(o0);return ee(uk,{children:[ee("div",{children:[p("img",{src:ck,alt:""}),p("button",{onClick:e,children:t==="default"?p(ak,{size:24}):p(ek,{size:24})})]}),ee("nav",{children:[p(mf,{to:"/",title:"Timer",children:p(lk,{size:24})}),p(mf,{to:"/history",title:"Hist\xF3rico",children:p(ik,{size:24})})]})]})}const fk=ct.div`
+`,ck="/02-ignite-timer/assets/logo-ignite.ce0eb831.svg";function dk(){const{toogleTheme:e,theme:t}=j.exports.useContext(o0);return ee(uk,{children:[ee("div",{children:[p("img",{src:ck,alt:""}),p("button",{onClick:e,children:t==="default"?p(ak,{size:24}):p(ek,{size:24})})]}),ee("nav",{children:[p(mf,{to:"/02-ignite-timer",title:"Timer",children:p(lk,{size:24})}),p(mf,{to:"/02-ignite-timer/history",title:"Hist\xF3rico",children:p(ik,{size:24})})]})]})}const fk=ct.div`
   max-width: 74rem;
   height: calc(100vh - 10rem);
   margin: 5rem auto;
@@ -308,7 +308,7 @@ Error generating stack: `+o.message+`
     border-radius: 9999px;
     background: ${e=>e.theme[Hw[e.statusColor]]};
   }
-`;function Zw(){const{cycles:e}=j.exports.useContext(mo);return ee(Uw,{children:[p("h1",{children:"Meu hist\xF3rico"}),p(Bw,{children:ee("table",{children:[p("thead",{children:ee("tr",{children:[p("th",{children:"Tarefa"}),p("th",{children:"Dura\xE7\xE3o"}),p("th",{children:"In\xEDcio"}),p("th",{children:"Status"})]})}),p("tbody",{children:e.map(t=>ee("tr",{children:[p("td",{children:t.task}),ee("td",{children:[t.minutesAmount," minutos"]}),p("td",{children:R2(new Date(t.startDate),{addSuffix:!0,locale:bw})}),ee("td",{children:[t.finishedDate&&p(fl,{statusColor:"green",children:"Conclu\xEDdo"}),t.interruptedDate&&p(fl,{statusColor:"red",children:"Interrompido"}),!t.finishedDate&&!t.interruptedDate&&p(fl,{statusColor:"yellow",children:"Em andamento"})]})]},t.id))})]})})]})}function Qw(){return p(M1,{children:ee(Xo,{path:"/",element:p(pk,{}),children:[p(Xo,{path:"/",element:p(aw,{})}),p(Xo,{path:"/history",element:p(Zw,{})})]})})}const Yw=jg`
+`;function Zw(){const{cycles:e}=j.exports.useContext(mo);return ee(Uw,{children:[p("h1",{children:"Meu hist\xF3rico"}),p(Bw,{children:ee("table",{children:[p("thead",{children:ee("tr",{children:[p("th",{children:"Tarefa"}),p("th",{children:"Dura\xE7\xE3o"}),p("th",{children:"In\xEDcio"}),p("th",{children:"Status"})]})}),p("tbody",{children:e.map(t=>ee("tr",{children:[p("td",{children:t.task}),ee("td",{children:[t.minutesAmount," minutos"]}),p("td",{children:R2(new Date(t.startDate),{addSuffix:!0,locale:bw})}),ee("td",{children:[t.finishedDate&&p(fl,{statusColor:"green",children:"Conclu\xEDdo"}),t.interruptedDate&&p(fl,{statusColor:"red",children:"Interrompido"}),!t.finishedDate&&!t.interruptedDate&&p(fl,{statusColor:"yellow",children:"Em andamento"})]})]},t.id))})]})})]})}function Qw(){return p(M1,{children:ee(Xo,{path:"/",element:p(pk,{}),children:[p(Xo,{path:"/02-ignite-timer",element:p(aw,{})}),p(Xo,{path:"/02-ignite-timer/history",element:p(Zw,{})})]})})}const Yw=jg`
   * {
     margin: 0;
     padding: 0;
