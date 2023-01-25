@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '02-ignite-timer"',
+  base: '/02-ignite-timer',
+  // server: {
+  //   port: 3000,
+  //   host: true
+  // }
 })
